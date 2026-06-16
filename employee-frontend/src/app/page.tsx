@@ -20,7 +20,7 @@ email: "",
 department: "",
 });
 
-const API = "http://localhost:3000/employee";
+const API = "https://crud-task-9o29.onrender.com/employee";
 
 const fetchEmployees = async () => {
 const res = await axios.get(API);
